@@ -34,7 +34,7 @@ class ShortestPath {
             System.out.println(i + " \t\t " + dist[i]);
     }
  
-    // Function that implements Dijkstra's single source
+    // Function that implements kale single source
     // shortest path algorithm for a graph represented using
     // adjacency matrix representation
     void dijkstra(int graph[][], int src)
@@ -104,6 +104,6 @@ class ShortestPath {
         ShortestPath t = new ShortestPath();
  
         // Function call
-        t.dijkstra(graph, 0);
+        t.kale(graph, 0);
     }
 }
